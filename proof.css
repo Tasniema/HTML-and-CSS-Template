@@ -1,6 +1,8 @@
 body{
   width: 100%;
   height: 100%;
+  margin: 0%;
+  padding: 0%;
 }
 .image{
   width: 20px;
@@ -8,7 +10,7 @@ body{
 }
 
 .parent{
-  width: 1000px;
+  width: 100%;
   height:  1335px;;
   background-color: rgb(105,182,183);
   margin: auto;
@@ -18,14 +20,14 @@ body{
 
 header{
   display: flex;
-  width: 950px;
+  width: 100%;
   height: 50px;
-  padding: 20px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid white;
   /* position: fixed; */
-  background-color: rgb(105,182,183)
+  background-color: rgb(105,182,183);
+  padding: 30px;
 }
 .head-1,
 .head{
@@ -88,8 +90,8 @@ button{
   border-radius: 20px;
   display: grid;
   background: white;
-  width: 875px;
-  margin-left: 55px;
+  width: 66%;
+  margin-left: 235px;
   padding: 10px;
 }
 .design{
@@ -108,24 +110,24 @@ button{
   height: 350px;
   position: relative;
   display: inline-block;
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-top: 73px;
+  margin-left: 229px;
   border-radius: 20px;
   padding: 10px;
 }
 
 .overlay-text {
   position: absolute;
-  top: 82%;
-  left: 51%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  background-color:  rgb(61 117 142 / 65%);
-  padding: 10px 20px;
-  font-size: 22px;
-  height: 330px;
-  width: 861px;
-  border-radius: 10px;
+    top: 87%;
+    left: 51%;
+    transform: translate(-50%, -56%);
+    color: #fff;
+    background-color: rgb(61 117 142 / 65%);
+    padding: 10px 20px;
+    font-size: 22px;
+    height: 335px;
+    width: 861px;
+    border-radius: 10px;
 }
 .social-icons{
 display: flex;
@@ -171,21 +173,6 @@ align-items: center;
   border-radius: 10px;
   padding:  10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -380,7 +367,6 @@ top: 390px;
  }
  footer{
   width: 100%;
-  height: 300px;
   background-color: white;
  }
  .end{
@@ -403,3 +389,5 @@ position: relative;
   border-color: transparent transparent rgb(142,208,199) transparent;
   pointer-events: none;
  }
+
+
